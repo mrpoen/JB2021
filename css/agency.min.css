@@ -199,6 +199,21 @@
   color: #000;
 }
 
+.modal-li:link, .modal-li:visited{
+	color: #000;
+	text-decoration: none;
+}
+
+.modal-li:active{
+	color: #000;
+	text-decoration: none;
+}
+
+.modal-li:hover{
+	color: #000;
+	text-decoration: none;
+}
+
 .modal-a {
 	font-family: Open Sans;
 	font-weight: lighter;
@@ -206,7 +221,7 @@
 	list-style: none;
 }
 
-.modal-a:link {
+.modal-a:link, .modal-a:visited {
   color: #000;
   text-decoration: none;
 }
