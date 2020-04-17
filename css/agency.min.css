@@ -104,9 +104,6 @@
 
 .container-lang {
     text-align: left;
-    margin-right: 150px;
-    margin-left: 15px;
-    margin-top: 53px;
 }
 
 .modal {
@@ -121,11 +118,146 @@
     outline: 0;
 }
 
-.modal-content{
-	height: 560px;
-}
-
 .btn.focus, .btn:focus {
     outline: 0;
     box-shadow: 0 !important;
+}
+
+.container-nav-lang {
+    position: absolute;
+    float: right;
+    height: 20px;
+    top: 60px;
+    left: 68.5%;
+}
+/*
+.modal-content-jb {
+	font-family: Open Sans;
+	font-weight: lighter;
+	font-size: 20px;
+	list-style: none;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: fit-content;
+    pointer-events: auto;
+    background-color: white;
+    background: rgba (255,255,255,0.8);
+    border: none;
+    outline: 0;
+    left: 43%;
+    opacity: 80%;
+    padding: 100px 80px 10px 0px;
+
+} 
+
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+
+*/
+
+.modal-content-jb {
+	font-family: Open Sans;
+	font-weight: lighter;
+	font-size: 20px;
+	list-style: none;
+	color:black;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: fit-content;
+    pointer-events: auto;
+    background-color: #ffffff9f;
+    background-clip: padding-box;
+    border: none;
+    border-radius: none;
+    outline: 0;
+    left: 120%;
+    padding: 100px 80px 10px 0px;
+}
+
+.modal-li{
+  font-family: Open Sans;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #000;
+}
+
+.modal-a {
+	font-family: Open Sans;
+	font-weight: lighter;
+	font-size: 20px;
+	list-style: none;
+}
+
+.modal-a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+.modal-a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.modal-a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.button-arrow{
+	text-decoration: none;
+	background: transparent;
+	border-style: none;
+	outline: 0px !important;
+}
+
+.btn-arrow{
+	text-decoration: none;
+	background: transparent;
+	border-style: none;
+	outline: 0px !important;
+}
+
+.button-arrow:focus{
+	text-decoration: none;
+	background: transparent;
+	border-style: none;
+	outline: none !important;
+}
+
+.button:focus{
+	text-decoration: none;
+	background: transparent;
+	border-style: none;
+	outline: 0px !important;
+}
+
+.fixed-top {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    z-index: 1030;
+}
+
+.container-nav-lang {
+    position: absolute;
+    top: 60px;
+    right: 172px;
 }
