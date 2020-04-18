@@ -10,12 +10,23 @@
     background-image: none !important; 
   }
 
-  	.konten {
+  	.konten-eng {
 	color: black;
-	padding:100px;
+	/*padding:100px; 
+	padding: 20px 20%;*/
 	text-align: left;
-	font-size: 14px !important; 
-	padding: 20px 20%;
+	font-size: 20px !important; 
+	font-family:'Open Sans' !important;
+	font-weight: lighter;
+	}
+
+	.konten-id {
+	color: black;
+	/* padding:100px; 
+	padding: 20px 20%;*/
+	text-align: left;
+	font-size: 20px !important; 
+	
 	font-family:'Open Sans' !important;
 	font-weight: lighter;
 	}
@@ -23,12 +34,30 @@
 	.konten-h1 {
 	color: white;
 	text-align: left;
-	font-size: 18px !important;
-	font-weight: 300 !important;
+	font-size: 24px !important;
+	font-weight: 600 !important;
 	padding: 0px 0px 4%;
 	font-family:'Open Sans' !important;
+  	}
+
+  	.konten-bg-id {
+  		background-image: url("../img/mobile/bg-ind.png");
+  	}
+
+  	.konten-bg-eng{
+  		background-image: url("../img/mobile/bg-eng.png");
+  	}
 }
+
+@media (min-width: 992px) {
+
 }
+
+@media (min-width: 1200px) {
+
+}
+
+
 
 .container1{
 	position: absolute;
@@ -64,9 +93,19 @@
 }
 
 .header {
-  text-align: center
+  text-align: center;
   color: white;
   width: 100%;
+}
+
+.logo-x {
+    position: absolute;
+    right: 2%;
+}
+
+.img .img-logox{
+	background-image: url("../img/button/close.png");
+	width: 30px;
 }
 
 .konten-h1 {
@@ -78,14 +117,37 @@
 	font-family:'Open Sans' !important;
 }
 
-.konten {
+.konten-bg-id {
 	color: black;
 	padding:100px;
 	text-align: left;
-	font-size: 30px;
+	font-size: 25px;
 	padding: 20px 30%;
 	font-family:'Open Sans' !important;
 	font-weight: lighter;
+	background-image: url("../img/desktop/bg1.png");
+}
+
+.konten-bg-eng {
+	color: black;
+	padding:100px;
+	text-align: left;
+	font-size: 25px;
+	padding: 20px 30%;
+	font-family:'Open Sans' !important;
+	font-weight: lighter;
+	background-image: url("../img/desktop/bg2.png"); 
+	
+}
+
+.konten-id {
+	position: relative;
+	text-align: left;
+}
+
+.konten-eng {
+	position: relative;
+	text-align: left;
 }
 
 .page-section .konten {
